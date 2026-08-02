@@ -10,7 +10,7 @@ A web-based AI voice assistant built with Python and Streamlit. It answers quest
 - **Text-to-Speech (TTS)**: Dedicated **🔊 Read** button on assistant responses for spoken voice playback.
 - **Quick Local Commands**: Answers current time, date, and day of the week instantly.
 - **Quote of the Day**: Displays an inspiring daily quote on app launch.
-- **Dark & Light Themes**: Easily toggle between dark and light modes using the half-moon button (`🌙`).
+- **Dark & Light Themes**: Easily switch between dark and light modes using theme toggle button.
 - **Organized Chat History**: Displays your active prompt and response right below the input box, archiving older messages below.
 
 ---
