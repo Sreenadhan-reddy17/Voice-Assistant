@@ -1,0 +1,51 @@
+# 📄 CHANGELOG.md
+
+All notable changes to this AI Voice Assistant project will be documented in this file.
+
+---
+
+## [v1.0.0] - 2025-06-20
+
+### 🚀 Initial Release
+
+- **Core Functionality**
+  - Integrated **voice-based interaction** using Streamlit and `speech_recognition`.
+  - Added **text-to-speech (TTS)** via `gTTS` to read out assistant responses.
+  - Users can input queries through a **text box** (voice input integration to be added later).
+  - AI responses powered by **OpenRouter Claude 3 Sonnet** via API.
+
+### 🎨 UI & UX
+
+- Implemented **custom dark theme** with vibrant gradient styling.
+- Designed a **modern interface** with:
+  - Stylish input fields and buttons.
+  - Animated button hover effects.
+  - Gradient text headers and subheaders.
+  - Divider lines and structured conversation layout.
+
+### 🧠 Features
+
+- Handles **basic commands** like time, date, and day using Python's `datetime`.
+- Maintains **session-based conversation history** between user and assistant.
+- Implements **AI fallback logic** if input doesn’t match predefined commands.
+
+### 🔊 Audio Handling
+
+- TTS responses are played automatically using `gTTS` and HTML audio injection.
+- Audio responses are also made downloadable/playable via `st.audio()`.
+
+### 🔐 Environment Setup
+
+- Reads API key securely using `dotenv`.
+- Gracefully handles missing or incorrect API keys.
+
+---
+
+## Planned for Future Releases
+
+- 🎤 **Voice input** support using microphone directly in Streamlit (currently under consideration).
+- 💡 Option to switch between different AI models or providers.
+- 🌍 Language support extension for multilingual input and response.
+- 📲 Mobile-friendly responsive layout for better accessibility.
+
+---

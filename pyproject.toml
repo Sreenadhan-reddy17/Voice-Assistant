@@ -1,0 +1,37 @@
+[project]
+name = "ai-voice-assistant"
+version = "0.1.0"
+description = "A lightweight, browser-based voice assistant using Python, Streamlit, and Claude-3."
+license = { text = "AGPL-3.0-only" }
+# or (if accepted by the tools you use)
+# license = { file = "LICENSE" }
+dynamic = ["dependencies"]
+
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = ["app"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+select = ["E", "F", "B", "I"]
+exclude = ["venv", ".venv", "build", "dist", "__pycache__"]
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+strict = false
+show_error_codes = true
+exclude = "(venv|.venv|tests|__pycache__)"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

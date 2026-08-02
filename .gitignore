@@ -1,0 +1,112 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment files
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Streamlit and Hugging Face
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/*.json
+
+# Audio & voice cache
+*.wav
+*.mp3
+audio_output/
+audio_cache/
+
+# OS & editor-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebook checkpoint files
+.ipynb_checkpoints
+
+# Pip / poetry / requirements
+pip-log.txt
+poetry.lock
+poetry.toml
+Pipfile
+Pipfile.lock
+
+# Logs
+*.log
+logs/
+nohup.out
+
+# pyinstaller or packaging
+*.spec
+
+# Temporary or testing files
+*.bak
+*.tmp
+*.old
+*.swp
+*.swo
+*.~*
+
+# Hugging Face deployment extras
+*.huggingface
+output/
+hf_cache/
+datasets_cache/
+datasets/
+
+# Report exports
+*.pdf
+*.docx
+exports/
+reports/
+
+# Model files (if added later)
+*.pth
+*.pt
+*.onnx
+*.pb
+
+# Optional image/video/temp input files
+media/
+input/
+uploads/
+captures/
+
+# Snowboy (if used with custom models)
+resources/models/*.pmdl
+resources/models/*.umdl
+
+# Cache or compiled TTS output
+tts_cache/
+tts_output/
+
+# Pytest
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# MyPy and Ruff
+.mypy_cache/
+ruff_cache/
+
+# Additional user folders
+__outputs__/
+__history__/
