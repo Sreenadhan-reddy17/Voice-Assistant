@@ -3,14 +3,5 @@ streamlit-chat>=0.1.1
 audio-recorder-streamlit
 gtts
 speechrecognition
-pyaudio
-openai
 requests
-pillow
-opencv-python
-pyautogui
-pywhatkit
-fpdf
-reportlab
-geocoder
 python-dotenv

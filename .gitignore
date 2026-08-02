@@ -110,3 +110,5 @@ ruff_cache/
 # Additional user folders
 __outputs__/
 __history__/
+uv.lock
+
